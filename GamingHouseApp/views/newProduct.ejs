@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Agregar Productos</title>
+  <link rel="stylesheet" href="css/newProduct.css">
+</head>
+
+<body>
+  <h1>Formulario Agregar Producto</h1>
+  <div class="container">
+    <form>
+      <input type="hidden" name="indice" id="indice" />
+
+      <label for="nombre">Nombre producto</label>
+      <input type="text" name="nombre" id="nombre" placeholder="Nombre" required />
+
+      <label for="descripcion">Descripcion</label>
+      <input type="text" name="descripcion" id="descripcion" placeholder="Ingresa descripcion" required />
+
+      <label for="precio">Precio</label>
+      <input type="number" name="precio" id="precio" placeholder="Precio" required />
+
+      <label for="categoria">Categoria</label>
+      <select id="categoria" name="categoria" required>
+        <option selected disabled hidden>seleccione</option>
+        <option>Barra de Sonido</option>  
+        <option>Headseat</option>
+        <option>Mouse</option>
+        <option>Monitor</option>
+        <option>Laptop</option>
+        <option>Smart Phone</option>
+        <option>Smart Watch</option>
+        <option>Tablet</option>
+        <option>Teclado</option>
+        
+      </select>
+
+      <label for="image1">Selecciona imagen</label>
+      <input type="file" id="image1" name="image1"><br><br>
+      <input type="file" id="image1" name="image1"><br><br>
+      <input type="file" id="image1" name="image1"><br><br>
+
+      <button type="submit" id="boton">Crear</button>
+      <button type="reset" id="limpiar">limpiar</button>
+    </form>
+    <table>
+      <thead>
+        <th>Nombre</th>
+        <th>Categoria</th>
+        <th>Precio</th>
+      </thead>
+      <tbody id="body-productos"></tbody>
+    </table>
+  </div>
+  <script src=""></script>
+</body>
+
+</html>

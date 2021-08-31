@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gaming House</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://www.fontzip.com/storage/2017/12/27/ubisoft-sans/webfonts/ubisoftsans-bold.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/productCart.css">
+    </head>
+    <body>
+        <%- include('partials/headerNavbar') %>
+
+        <div class="main">
+            <!--<ProductCartMobile>-->
+            <div class="productCartSummaryMobile">
+                <div class="productCartSummaryItemMobile">
+                    <i class="fas fa-money-bill-alt"></i>
+                    <p><b>Subtotal</b>: $40,419.00</p>
+                </div>
+                <div class="productCartSummaryItemMobile">
+                    <i class="fas fa-shuttle-van"></i>
+                    <p><b>Envío</b>: $150.00</p>
+                </div>
+                <div class="productCartSummaryItemMobile">
+                    <i class="fas fa-money-bill-alt"></i>
+                    <p><b>Total</b>: $40,569.00</p>
+                </div>
+                <button class="productCartSummaryButtonMobile">
+                    Proceder al pago (3 productos)
+                </button>
+            </div>
+            <!--<ProductCartItem />-->
+            <div class="productCartItem">
+                <div class="productCartItemTop">
+                    <div class="productCartItemTopLeft">
+                        <input type="checkbox" /> &nbsp;
+                        <span class="text"><b>Bocina Logitech</b></span>
+                    </div>
+                    <i class="fas fa-trash-alt"></i>
+                </div>  
+    
+                <div class="productCartItemBottom">
+                    <div class="productCartItemBottomLeft">
+                        <div class="artImg" style="background-image:url(https://m.media-amazon.com/images/I/51oCYrTn2GL._AC_UL320_.jpg)"></div>
+                        <div class="controls">
+                            <i class="fas fa-minus-circle"></i>
+                            <span>1</span>
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                    <div class="productCartItemBottomRight">
+                        <div class="productCartItemBottomRightTop">
+                            <span title="Logitech - MX Sound - Bocinas Bluetooth - Gris"><b><i>Logitech - MX Sound - Bocinas Bluetooth - Gris</i></b></span>
+                        </div>
+                        <div class="productCartItemBottomRightMiddle">
+                            <div class="productCartItemBottomRightMiddleItem">
+                                <b>Color</b>
+                                <span style="width:'10px'; height:'10px'; margin:' 4px auto'; background-color:red"/>
+                            </div>
+                            <div class="productCartItemBottomRightMiddleItem">
+                                <b>Material</b>
+                                <span>Madera</span>
+                            </div>
+                            <div class="productCartItemBottomRightMiddleItem">
+                                <b>Tamaño</b>
+                                <span>Mediano</span>
+                            </div>
+                        </div>
+                        <div class="productCartItemBottomRightBottom">
+                            <h2>$ 1953</h2>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <!--</ProductCartMobile>-->
+        </div>
+
+         
+    </body>
+
+    <div class="footer">
+        <nav class="indexMobileNav">
+            <a href="/" class="indexMobileNavA"><i class="fas fa-home"></i></a>
+            <a href="#" class="indexMobileNavA"><i class="fas fa-user"></i></a>
+            <a href="/carrito" class="indexMobileNavA"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" class="indexMobileNavA"><i class="fas fa-bars"></i></a>
+        </nav>
+    </div> 
+    
+    <%- include('partials/footer') %>
+</html>
