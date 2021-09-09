@@ -52,6 +52,10 @@
     .searchBarRightC{
         display: none;
     }
+    .sbrc_car{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 /*================================================ Desktop*/
@@ -82,10 +86,6 @@
     .searchBarRightC{
         display: flex;
         align-items: center;
-    }
-    .sbrc_car{
-        text-decoration: none;
-        color: white;
     }
     .sbrc_icon{
         font-size: 1.5vw;  

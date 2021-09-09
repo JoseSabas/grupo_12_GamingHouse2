@@ -68,7 +68,7 @@
     .homeContentCard{
         width: 15%;
         min-height: 20vw;
-        margin: 0;
+        margin-bottom: 1vw;
     }
     .hcc_img{
         width: 12vw;
