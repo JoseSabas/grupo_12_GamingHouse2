@@ -13,18 +13,7 @@ const controlador = {
 		const topSpeakers = products.filter(product => product.section===5 && product.top);
 		res.render('AppHome', {view: 'home', topMonitors, topHeadphones, topKeyboards, topMouse, topSpeakers});
 	},
-    productCart: (req, res) => {
-        res.render("AppProductcart", {view: 'car'}); /*productCart*/
-    },
-    productDetail: (req, res) => {
-        res.render("AppProductDetails", {view: 'detail'}); /*productDetails*/
-    },
-    newProduct: (req, res) => {
-        res.render("AppNewProduct", {view: 'new'}); /*newProduct*/
-    },
-    editProduct: (req, res) => {
-        res.render("AppEditProduct", {view: 'edit'}); /*editProduct*/
-    },
+
     login: (req, res) => {
         res.render('AppLogin'); /*login*/
     },

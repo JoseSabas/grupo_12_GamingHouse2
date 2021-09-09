@@ -7,7 +7,7 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const controller = {
 	detail: (req, res) => {
 		let id = req.params.id;
-		let product = products.find(product=> product.id == id)
+		let product = products.find(product=> product.id == id);
 		res.render('AppHome', {view: 'detail', product});
 	},
 
