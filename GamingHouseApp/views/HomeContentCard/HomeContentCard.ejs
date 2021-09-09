@@ -1,17 +1,20 @@
-<a class="homeContentCard">
-    <div style="background-image: url(https://m.media-amazon.com/images/I/612OuMs29eL._AC_SL1200_.jpg)" class="hcc_img"></div>
+<a class="homeContentCard" href="/products/detail/<%=id%>/">
+    <% cardStyle = `background-image: url(${img})`; %>
+    <div style="<%= cardStyle %>" class="hcc_img"></div>
+    <div class="hcc_price">$ <%= price %></div>
     <div class="hcc_stars">
+        <!--<i class="far fa-star"></i>
         <i class="far fa-star"></i>
         <i class="far fa-star"></i>
         <i class="far fa-star"></i>
-        <i class="far fa-star"></i>
-        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>-->
+        <%= stars %> estrellas
     </div>
     <div class="hcc_sells">
-        1000 vendidos
+        <%= sales %> vendidos
     </div>
     <div class="hcc_name">
-        nameaaaaaaaaaaaaaaaaaaaaaaaaaa
+        <%= name %>
     </div>
     <button class="hcc_button">
         Agregar al carrito

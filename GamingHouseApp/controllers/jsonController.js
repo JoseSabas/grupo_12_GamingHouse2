@@ -3,7 +3,7 @@ const fs = require('fs');
 
 let jsonFile = {
     read: function () {
-        return JSON.parse(fs.readFileSync(path.join(__dirname, '../database/articlesInfo.json'), 'utf-8'));
+        return JSON.parse(fs.readFileSync(path.join(__dirname, '../data/products.json'), 'utf-8'));
     },
 
     write: function(tareas){
