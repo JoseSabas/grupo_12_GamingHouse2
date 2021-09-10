@@ -52,6 +52,10 @@
     .searchBarRightC{
         display: none;
     }
+    .sbrc_car{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 /*================================================ Desktop*/

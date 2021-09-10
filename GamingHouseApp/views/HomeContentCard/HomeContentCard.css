@@ -12,12 +12,22 @@
     flex-wrap: wrap;
     background-color: #ffffff;
     margin-bottom: 3vw;
+    text-decoration: none;
+    color: black;
 }
 .hcc_img{
     width: 24vw;
     height: 24vw;
     background-size: cover;
     background-position: center center;
+}
+.hcc_price{
+    font-size: 3vw;
+    font-weight: bolder;
+    padding: 0.2vw 0vw;
+    text-align: center;
+    background-color: #E5ECEA;
+    width: 100%;
 }
 .hcc_stars{
     width: 100%;
@@ -37,6 +47,7 @@
     overflow: hidden;
     white-space: nowrap;
     margin: 0.5vw 0;
+    text-align: center;
 }
 .hcc_button{
     padding: 0.2vw;
@@ -57,11 +68,14 @@
     .homeContentCard{
         width: 15%;
         min-height: 20vw;
-        margin: 0;
+        margin-bottom: 1vw;
     }
     .hcc_img{
         width: 12vw;
         height: 12vw;
+    }
+    .hcc_price{
+        font-size: 1vw;
     }
     .hcc_stars{
         font-size: 0.9vw;
