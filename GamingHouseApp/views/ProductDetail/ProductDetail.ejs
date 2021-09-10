@@ -1,4 +1,4 @@
-<%= product.name %>
+
 <br/>
 <%= product.desc %>
 <br/>
@@ -13,7 +13,6 @@
 
 
 
-<body>
     
     <!DOCTYPE html>
     <html lang="en">
@@ -37,7 +36,7 @@
             <div class="image-container">
     
                 <div class="big-image">
-                    <img src="https://m.media-amazon.com/images/I/51qdkFhW8HL._AC_SX522_.jpg" alt="">
+                    <img src="<%= product.img %>" alt="">
                 </div>
     
                 <div class="small-image">
@@ -50,10 +49,9 @@
     
             <div class="content">
     
-                <h3 class="title">G203 Lightsync Gaming Mouse</h3>
-                <div class="price">$459.00</div>
-                <p>Sensor de alta precisión con DPI ajustable hasta 8000 DPI
-                    G203 se ha diseñado para funcionar a la perfección en cualquier sistema, pero si quieres controles aún más precisos, puedes descargar gratis un software de personalización que es fácil de usar y configurar. El software de personalización G HUB permite personalizarlo todo: la iluminación, la sensibilidad y los comandos de los botones del mouse G203.</p>
+                <h3 class="title"><%= product.name %></h3>
+                <div class="price"><%= product.price %> .00</div>
+                <p><%= product.desc %></p>
     
                 <form action="">
     
@@ -177,4 +175,3 @@
     
     
     
-    </body>
