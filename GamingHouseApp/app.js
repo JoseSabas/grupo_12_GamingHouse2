@@ -4,6 +4,7 @@ const methodOverride =  require('method-override'); // Para poder usar los méto
 
 const mainRoute = require('./routes/main');
 const productsRouter = require('./routes/products');
+const usersRouter = require('./routes/users');
 const sectionsRouter = require('./routes/sections');
 const carRouter = require('./routes/car');
 
@@ -15,6 +16,7 @@ app.use('/', mainRoute); //El primer parámetro es el 'prefijo' (Por ejemplo, pa
 app.use('/products', productsRouter);
 app.use('/section', sectionsRouter);
 app.use('/car', carRouter);
+app.use('/users', usersRouter);
 
 app.set('view engine', 'ejs'); //Se configura EJS como el template engine de la app
 app.set('views', './views');
