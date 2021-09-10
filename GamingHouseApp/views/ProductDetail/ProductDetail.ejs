@@ -10,3 +10,171 @@
 <br/>
 <%= product.sales %>
 <br/>
+
+
+
+<body>
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+    <body>
+       
+    <div class="box-container">
+    
+        <div class="box">
+    
+            <div class="image-container">
+    
+                <div class="big-image">
+                    <img src="https://m.media-amazon.com/images/I/51qdkFhW8HL._AC_SX522_.jpg" alt="">
+                </div>
+    
+                <div class="small-image">
+                    <img class="active" src="https://m.media-amazon.com/images/I/51qdkFhW8HL._AC_SX522_.jpg" alt="">
+                    <img src="https://m.media-amazon.com/images/I/41FiDeU-OpL._AC_SY355_.jpg" alt="">
+                    <!-- <img src="https://m.media-amazon.com/images/I/41FiDeU-OpL._AC_SY355_.jpg" alt=""> -->
+                </div>
+    
+            </div>
+    
+            <div class="content">
+    
+                <h3 class="title">G203 Lightsync Gaming Mouse</h3>
+                <div class="price">$459.00</div>
+                <p>Sensor de alta precisión con DPI ajustable hasta 8000 DPI
+                    G203 se ha diseñado para funcionar a la perfección en cualquier sistema, pero si quieres controles aún más precisos, puedes descargar gratis un software de personalización que es fácil de usar y configurar. El software de personalización G HUB permite personalizarlo todo: la iluminación, la sensibilidad y los comandos de los botones del mouse G203.</p>
+    
+                <form action="">
+    
+                    <div class="dropDown">
+                        <span> Tipo : </span>
+                        <select name="" id="">
+                            <option value="-">6gb</option>
+                            <option value="-">1080</option>
+                            <option value="-">i5</option>
+                            <option value="-">cero</option>
+                        </select>
+                        <span> Color : </span>
+                        <select name="" id="">
+                            <option value="Blanco">Blanco</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Negro">Negro</option>
+                        </select>
+                    </div>
+    
+                    <div class="quantity">
+                        <span> Cantidad : </span>
+                        <input type="number" value="1">
+                    </div>
+    
+                </form>
+    
+                <a href="#"><button class="btn"> <i class="fas fa-shopping-cart"></i> Agregar </button></a>
+                <span class="stock"> <i class="fas fa-check"></i> Disponible </span>
+                <div class="share">
+                    <a href="#">f</a>
+                    <a href="#">t</a>
+                    <a href="#">i</a>
+                    <a href="#">p</a>
+                </div>
+    
+            </div>
+            
+        </div>
+    
+    </div>    
+    
+
+    
+        <div class="another-wrapper">
+          <h1>Productos Sugeridos</h1>
+          <hr>
+          </div>
+        
+
+    <div class="products">
+       
+        <!--     product -->
+            <div class="card product-card">
+              <div class="cardHeader">
+                <img class="imageProduct" src="https://m.media-amazon.com/images/I/51S6IQ2lGwL._AC_SX522_.jpg" alt="product" style="max-width: 28vw; max-height: 30vh;">
+              </div>
+              <div class="cardContent">
+                <h1>$50.00</h1>
+                <h4>Razer DeathAdder Essential - Mouse gamer</h4>
+              </div>
+            </div>
+        <!--     product -->
+            <!--     product -->
+            <div class="card product-card">
+              <div class="cardHeader">
+                <img class="imageProduct" src="https://m.media-amazon.com/images/I/51S6IQ2lGwL._AC_SX522_.jpg" alt="product" style="max-width: 28vw; max-height: 30vh;">
+              </div>
+              <div class="cardContent">
+                <h1>$ 50.00</h1>
+                <h3>Razer DeathAdder Essential - Mouse gamer</h3>
+              </div>
+            </div>
+        <!--     product -->
+            <!--     product -->
+            <div class="card product-card">
+              <div class="cardHeader">
+                <img class="imageProduct" src="https://m.media-amazon.com/images/I/51S6IQ2lGwL._AC_SX522_.jpg" alt="product" style="max-width: 28vw; max-height: 30vh;">
+              </div>
+              <div class="cardContent">
+                <h1>$ 50.00</h1>
+                <h3>Razer DeathAdder Essential - Mouse gamer</h3>
+              </div>
+            </div>
+        <!--     product -->
+            <!--     product -->
+            <div class="card product-card">
+              <div class="cardHeader">
+                <img class="imageProduct" src="https://m.media-amazon.com/images/I/51S6IQ2lGwL._AC_SX522_.jpg" alt="product" style="max-width: 28vw; max-height: 30vh;">
+              </div>
+              <div class="cardContent">
+                <h1>$ 50.00</h1>
+                <h3>Razer DeathAdder Essential - Mouse gamer</h3>
+              </div>
+            </div>
+        <!--     product -->
+          </div>
+    
+    
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+    
+    $(document).ready(function(){
+    
+        $('.small-image img').click(function(){
+    
+            $(this).addClass('active').siblings().removeClass('active');
+    
+            let image = $(this).attr('src');
+            $('.big-image img').attr('src',image);
+    
+        });
+    
+    });
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    </body>
