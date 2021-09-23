@@ -7,6 +7,7 @@ const productsRouter = require('./routes/products');
 const usersRouter = require('./routes/users');
 const sectionsRouter = require('./routes/sections');
 const carRouter = require('./routes/car');
+const accountRouter = require('./routes/account');
 
 app.use(express.urlencoded({ extended: false })); //Estas dos líneas permiten recibir datos por POST
 app.use(express.json());
@@ -17,6 +18,7 @@ app.use('/products', productsRouter);
 app.use('/section', sectionsRouter);
 app.use('/car', carRouter);
 app.use('/users', usersRouter);
+app.use('/account', accountRouter);
 
 app.set('view engine', 'ejs'); //Se configura EJS como el template engine de la app
 app.set('views', './views');
