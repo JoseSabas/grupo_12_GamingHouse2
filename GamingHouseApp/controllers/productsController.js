@@ -26,7 +26,7 @@ const controller = {
 		};
 		products.push(newProduct);
 		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
-		res.redirect('/');
+		res.redirect('/account/myproducts');
 	},
 
 	edit: (req, res) => {

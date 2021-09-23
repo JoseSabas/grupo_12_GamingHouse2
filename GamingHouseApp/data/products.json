@@ -1,6 +1,7 @@
 [
  {
   "id": 1,
+  "userId": "u1",
   "section": 1,
   "name": "Monitor AOC 24 pulgadas",
   "desc": "AOC C24G1A Monitor de juego curvo sin marco de 24 pulgadas, FHD 1920 x 1080, 1500 R, VA, 1 ms MPRT, 165 Hz (144 Hz compatible), FreeSync Premium, altura ajustable",
@@ -14,6 +15,7 @@
  },
  {
   "id": 2,
+  "userId": "u1",
   "section": 1,
   "name": "Monitor Samsung 49 pulgadas",
   "desc": "Samsung Monitor Gaming 49 pulgadas Super UltraWide QLED, Resolución 3840 x 1080, 144 Hz (Modelo LC49HG90DMLXZX)",
@@ -27,6 +29,7 @@
  },
  {
   "id": 3,
+  "userId": "u1",
   "section": 1,
   "name": "Monitor Asus 27 pulgadas",
   "desc": "Asus Monitor Gamer VG278QR, 27 pulgadas, Full HD, 0.5ms, 165Hz, Compatible con NVIDI G-Sync, Adaptive-Sync",
@@ -40,6 +43,7 @@
  },
  {
   "id": 4,
+  "userId": "u1",
   "section": 1,
   "name": "Monitor Asus 27 pulgadas",
   "desc": "Asus Monitor Gamer 27 pulgadas TUF Gaming VG279Q1A, Full HD 1920 x 1080, IPS, 165 Hz, Extreme Low Motion Blur, Adaptive-Sync, FreeSync Premium, 1 ms (MPRT)",
@@ -53,6 +57,7 @@
  },
  {
   "id": 5,
+  "userId": "u1",
   "section": 1,
   "name": "Monitor Aorus 25 pulgadas",
   "desc": "AORUS FI25F 25 pulgadas 240Hz 1080P NVIDIA G-SYNC COMPATIBLE Gaming Monitor, Exclusive Built-in ANC, 1920 X1080 Display, 0.4 ms Response Time, HDR, 100% sRGB, 1x Display Port 1.2, 2X HDMI 2.0, 2X USB 3.0",
@@ -66,6 +71,7 @@
  },
  {
   "id": 6,
+  "userId": "u1",
   "section": 2,
   "name": "Audifonos HyperX Cloud Alpha",
   "desc": "HyperX Cloud Alpha - Audífonos para gaming, Color Rojo- Altavoces de cámara doble - Comodidad galardonada de HyperX - Resistente estructura de aluminio - Micrófono desmontable con cancelación de ruido - Compatible con PC, PS4, PS4 PRO, Xbox One, Xbox One S (HX-HSCA-RD/AM)",
@@ -79,12 +85,13 @@
  },
  {
   "id": 7,
-  "section": 2,
+  "userId": "u1",
+  "section": "2",
   "name": "Audifonos Free Wolf",
   "desc": "Free Wolf Audífonos Gamer InEar, Auriculares Gaming con Cable, con micrófono Dual Desmontable, para Juegos móviles, Compatibles con Nintendo Switch, PS4, PS5, Xbox One, Xbox X, Celulares, Tablets, Laptops, etc",
-  "img": "https://m.media-amazon.com/images/I/41SC8u5GHmS._AC_UL320_.jpg",
   "mark": "Free Wolf",
-  "price": 239,
+  "price": "239",
+  "img": "",
   "stars": 1,
   "sales": 0,
   "top": true,
@@ -92,6 +99,7 @@
  },
  {
   "id": 8,
+  "userId": "u1",
   "section": 2,
   "name": "Audifonos HyperX CloudX",
   "desc": "HyperX HHSC2-CG-SL/G CloudX - Audífonos para Gaming con Licencia Oficial Xbox, Micrófono Desmontable con Cancelación de Ruido, conector 3.5 mm",
@@ -105,6 +113,7 @@
  },
  {
   "id": 9,
+  "userId": "u1",
   "section": 2,
   "name": "Audifonos Asus TUF",
   "desc": "Asus Audífonos Gamer TUF Gaming H3, compatibles con PC, PS4, Xbox One y Nintendo Switch, Sonido Envolvente de 7.1, diseño Ligero y Almohadillas Fast-Cooling",
@@ -118,6 +127,7 @@
  },
  {
   "id": 10,
+  "userId": "u1",
   "section": 2,
   "name": "Audifonos PANFREY",
   "desc": "PANFREY Audífonos Gamer para Xbox One PS4 PC, Auriculares Gaming con cancelación de Ruido con luz LED y micrófono, adecuados para portátiles y Mac Camuflaje Blanco",
@@ -131,6 +141,7 @@
  },
  {
   "id": 11,
+  "userId": "u1",
   "section": 3,
   "name": "Teclado BINDEN",
   "desc": "BINDEN Teclado Gamer Mecanico G27 Keyboard Ergonomico Programable con Retroiluminación LED RGB 104 Teclas Switch Azul, Plástico Negro",
@@ -144,6 +155,7 @@
  },
  {
   "id": 12,
+  "userId": "u1",
   "section": 3,
   "name": "Teclado FIODIO",
   "desc": "FIODIO Mechanical Gaming Keyboard, LED Rainbow Gaming Backlit, 104 Anti-ghosting Keys, Quick-Response Black Switches, Multimedia Control for PC and Desktop Computer, with Removable Hand Rest",
@@ -157,6 +169,7 @@
  },
  {
   "id": 13,
+  "userId": "u1",
   "section": 3,
   "name": "Teclado FIODIO",
   "desc": "FIODIO Membrane Gaming Keyboard, USB Wired Keyboard with Rainbow Backlit, 104 Comfortable Quiet Silent Keys, 26 Anti-Ghosting Keys, Spill Resistant, Multimedia Control for PC and Desktop Computer",
@@ -170,6 +183,7 @@
  },
  {
   "id": 14,
+  "userId": "u1",
   "section": 3,
   "name": "Teclado VSG Mintaka",
   "desc": "VSG Mintaka Teclado Mecánico Gamer, Alámbrico, Edición 60%, ISO Latinoamericano, Interruptores Kailh, Retroiluminación RGB Personalizable, 546g (Mintaka Blanco con Switch Kailh Rojo)",
@@ -183,6 +197,7 @@
  },
  {
   "id": 15,
+  "userId": "u1",
   "section": 3,
   "name": "Teclado Ocelot",
   "desc": "Teclado Gamer Extendido Ocelot Gaming OGEK01, Membrana, Cubierta metálica. Iluminación de 3 colores, con sujetador para el smartphone",
@@ -196,6 +211,7 @@
  },
  {
   "id": 16,
+  "userId": "u1",
   "section": 4,
   "name": "Mouse Lightsync",
   "desc": "G203 Lightsync Gaming Mouse - Color Negro",
@@ -209,6 +225,7 @@
  },
  {
   "id": 17,
+  "userId": "u2",
   "section": 4,
   "name": "Mouse ONIKUMA",
   "desc": "Gaming Mouse Ratón para juegos RGB con cable, ratón óptico USB para computadora con retroiluminación RGB, 6 DPI ajustables hasta 6400, mouse ergonómico para computadora portátil Gamer con 7 botones programables para Windo Vista Linux (negro)",
@@ -222,6 +239,7 @@
  },
  {
   "id": 18,
+  "userId": "u2",
   "section": 4,
   "name": "Mouse Logitech G",
   "desc": "Logitech G - G502 HERO - Mouse de Hasta 16,000 DPI, Botones Programables, Peso Ajustable, con Iluminación RGB para Gaming - Negro",
@@ -235,6 +253,7 @@
  },
  {
   "id": 19,
+  "userId": "u2",
   "section": 4,
   "name": "Mouse WeutouKing",
   "desc": "Mouse Gamer RGB con Cable USB, 7 Botón Programable, 800/1600/3200/4800/8000 DPI, Ratón Gamer Programable con Cool Retroiluminado, Mouse Gaming con Interruptor Independiente de Luz para Windows7/8/10/XP",
@@ -248,6 +267,7 @@
  },
  {
   "id": 20,
+  "userId": "u2",
   "section": 4,
   "name": "Mouse Free Wolf",
   "desc": "Free wolf X13 Mouse Inalámbrico RGB de Juego, Ratón Inalámbrico Recargable Luz RGB, 7 Botones y 3 DPI Ajustable, Clic Silencioso, Reposo Automático, Con receptor USB, Preciso, Rápido, Ergonómico, Profesional para Video Juegos o en Oficina, Compatible Universal",
@@ -261,6 +281,7 @@
  },
  {
   "id": 21,
+  "userId": "u2",
   "section": 5,
   "name": "Bocina Logitech G",
   "desc": "Logitech G - G560 LIGHTSYNC - Bocinas 2.1 con Iluminación RGB para Gaming - Negro",
@@ -274,6 +295,7 @@
  },
  {
   "id": 22,
+  "userId": "u2",
   "section": 5,
   "name": "Bocina MTQ",
   "desc": "MTQ Altavoces PC Sobremesa, Bocinas PC Gamer, Altavoz 2.0 USB 10W Gaming de Ordenador Sobremesa para Móvil MP3 Fiesta, Perfecto como Regalo para Casa Viaje Oficina Fiesta Ordenador Portátil",
@@ -287,6 +309,7 @@
  },
  {
   "id": 23,
+  "userId": "u2",
   "section": 5,
   "name": "Bocina YOMIM",
   "desc": "YOMYM Bocinas para PC, Altavoces para Computadora, Barra de Sonido, Altavoces Multimedia para Escritorio, Altavoces estéreo con Cable Auxiliar con Graves Fuertes para PC",
@@ -300,6 +323,7 @@
  },
  {
   "id": 24,
+  "userId": "u2",
   "section": 5,
   "name": "Bocina BINDEN",
   "desc": "BINDEN Bocina Gamer Altavoz Alámbrico Auxiliar Jack 3.5mm GS202 Speaker para Juegos y Música USB 2.0 Compatible con Smartphones, Negro",
@@ -313,6 +337,7 @@
  },
  {
   "id": 25,
+  "userId": "u2",
   "section": 5,
   "name": "Bocina Logitech",
   "desc": "Logitech - MX Sound - Bocinas Bluetooth - Gris",
@@ -326,6 +351,7 @@
  },
  {
   "id": 26,
+  "userId": "u2",
   "section": 1,
   "name": "Monitor AOC 27 pulgadas",
   "desc": "AOC 27G2 Monitor Gamer LED IPS de 27 pulgadas, Resolución 1920x1080 Full HD, Brillo 250CD/M2, 144HZ, Conexión Display Port, HDMI, VGA, Color Negro con Rojo",
@@ -339,6 +365,7 @@
  },
  {
   "id": 27,
+  "userId": "u2",
   "section": 2,
   "name": "Audifonos Gamer Binden",
   "desc": "BINDEN Audifonos Gamer Dark Manta K55 Auriculares True Wireless Inalambricos TWS Bluetooth 5.0 con Estuche de Carga hasta 10 hrs de Batería para Juegos Móviles Smart Touch Sonido Envolvente y Micrófono con Reducción de Ruido Externo, Negro",
@@ -352,6 +379,7 @@
  },
  {
   "id": 28,
+  "userId": "u2",
   "section": 3,
   "name": "Teclado Ocelot",
   "desc": "Teclado Gamer Extendido Ocelot Gaming OGEK01, Membrana, Cubierta metálica. Iluminación de 3 colores, con sujetador para el smartphone",
@@ -365,6 +393,7 @@
  },
  {
   "id": 29,
+  "userId": "u2",
   "section": 4,
   "name": "Mouse Corsair",
   "desc": "Corsair Scimitar Pro Ratón Gaming Óptico USB, Color Negro",
@@ -378,6 +407,7 @@
  },
  {
   "id": 30,
+  "userId": "u2",
   "section": 5,
   "name": "Bocina Edifier",
   "desc": "Edifier Bocina Gamer G1000 Bluetooth RGB",
