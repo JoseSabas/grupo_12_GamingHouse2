@@ -1,20 +1,20 @@
 [
-    {
-        "id" : "u1",
-        "firstname" : "Arturo",
-        "lastname":"Montes",
-        "email": "arturomontes@gmail.com",
-        "password": "abc1234",
-        "rol": 1,
-        "avatar": "https://img.freepik.com/foto-gratis/retrato-modelo-sonriente-hermoso-hombre-negocios-inconformista-que-lleva-ropa-blanca-casual-verano_158538-919.jpg?size=626&ext=jpg&ga=GA1.2.1935130400.1630800000"
-    },
-    {
-        "id" : "u2",
-        "firstname" : "Jimena",
-        "lastname":"Sanchez",
-        "email": "jimenasanchez@gmail.com",
-        "password": "abc1234",
-        "rol": 2,
-        "avatar": "https://www.sarastudio.com/wp-content/uploads/Cursos_Modelo-profesional.png"
-    }
-   ]
+ {
+  "id": "u1",
+  "avatar": "https://img.freepik.com/foto-gratis/retrato-modelo-sonriente-hermoso-hombre-negocios-inconformista-que-lleva-ropa-blanca-casual-verano_158538-919.jpg?size=626&ext=jpg&ga=GA1.2.1935130400.1630800000",
+  "firstname": "Arturo1",
+  "lastname": "Montes",
+  "email": "arturomontes@gmail.com",
+  "password": "abc12345",
+  "rol": "1"
+ },
+ {
+  "id": "u2",
+  "firstname": "Jimena",
+  "lastname": "Sanchez",
+  "email": "jimenasanchez@gmail.com",
+  "password": "abc1234",
+  "rol": 2,
+  "avatar": "https://www.sarastudio.com/wp-content/uploads/Cursos_Modelo-profesional.png"
+ }
+]
