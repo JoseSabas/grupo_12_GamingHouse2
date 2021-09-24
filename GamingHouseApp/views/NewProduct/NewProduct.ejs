@@ -1,64 +1,6 @@
-<<<<<<< HEAD
-
-
-<div class="NewP-container">
-    <!--<h2>Formulario Agregar Producto</h2>-->
-    <form action="/products" method="POST">
-    <label for="section" class="NewP-text">Sección: </label>
-    <select name="section" id="section" class="NewP-area">
-        <option value=1>Monitor</option>
-        <option value=2>Audífono</option>
-        <option value=3>Teclado</option>
-        <option value=4>Mouse</option>
-        <option value=5>Bocina</option>
-    </select>
-    <br/><br/>
-    <label for="name" class="NewP-text">Nombre: </label>
-    <input type="text" id="name" name="name" placeholder="Nombre del producto" class="NewP-area"><br/><br/>
-    
-    <label for="desc" class="NewP-text">Descripción: </label>
-    <textarea id="desc" name="desc" placeholder="Descripción del producto" class="NewP-area"></textarea> <br/> <br/>
- 
-    <label for="mark" class="NewP-text">Marca: </label>
-    <input type="text" id="mark" name="mark" placeholder="Marca del producto" class="NewP-area"> <br/><br/>
-    
-    <label for="price" class="NewP-text">Precio: </label>
-    <input type="number" id="price" name="price" min="1" placeholder="Precio del producto" class="NewP-area"> <br/><br/>
-
-    <div class="NewP-fila">
-        <div class="NewP-column">
-            <label for="img" class="NewP-text">Imágen: </label>
-            <label class="NewP-button-image">
-                <input type="file" id="img" name="img" accept=".jpg" >
-            </label>
-        </div>
-         <div class="NewP-column">
-        <img id="blah" src="#" alt="your image" class="NewP-image"/>
-        </div>
-    </div>
-  
-    <br/><br/> <br/><br/>
-    
-    <button type="submit" class="NewP-button">Guardar producto</button>
-    <button type="reset" id="limpiar" class="NewP-button NewP-button-Blue">Limpiar</button>
-    </form>
-</div>
-
-
-
-<script>
-      img.onchange = evt => {
-  const [file] = img.files
-  if (file) {
-    blah.src = URL.createObjectURL(file)
-  }
-}
-
-
-=======
 <div class="NewP-container">
     <form action="/account/myproducts" method="POST">
-        <label for="section" class="NewP-text">Sección: </label>
+        <label for="section" class="NewP-text">Sección </label>
         <select name="section" id="section" class="NewP-area">
             <option value=1>Monitor</option>
             <option value=2>Audífono</option>
@@ -67,21 +9,21 @@
             <option value=5>Bocina</option>
         </select>
         <br/><br/>
-        <label for="name" class="NewP-text">Nombre: </label>
+        <label for="name" class="NewP-text">Nombre </label>
         <input type="text" id="name" name="name" placeholder="Nombre del producto" class="NewP-area"><br/><br/>
         
-        <label for="desc" class="NewP-text">Descripción: </label>
+        <label for="desc" class="NewP-text">Descripción </label>
         <textarea id="desc" name="desc" placeholder="Descripción del producto" class="NewP-area"></textarea> <br/> <br/>
     
-        <label for="mark" class="NewP-text">Marca: </label>
+        <label for="mark" class="NewP-text">Marca </label>
         <input type="text" id="mark" name="mark" placeholder="Marca del producto" class="NewP-area"> <br/><br/>
         
-        <label for="price" class="NewP-text">Precio: </label>
+        <label for="price" class="NewP-text">Precio </label>
         <input type="number" id="price" name="price" min="1" placeholder="Precio del producto" class="NewP-area"> <br/><br/>
 
         <div class="NewP-fila">
             <div class="NewP-column">
-                <label for="img" class="NewP-text">Imágen: </label>
+                <label for="img" class="NewP-text">Imágen </label>
                 <label class="NewP-button-image">
                     <input type="file" id="img" name="img" accept=".jpg" >
                 </label>
@@ -104,5 +46,4 @@
             blah.src = URL.createObjectURL(file)
         }
     }
->>>>>>> aa79d48dfca6f350934ad1ef3f69b84d4e2c08f9
 </script>

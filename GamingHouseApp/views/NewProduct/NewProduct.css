@@ -11,29 +11,24 @@
   outline: none;
   text-transform: capitalize;
   transition: all 0.2s linear;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
 }
 
 .NewP-container {
+  margin-top: 100px;
   border-radius: 4px;
-  background-color: #f7c317c5;
+  background-color: white;
   padding: 18px;
   width: 60vw;
-  margin: auto;
+  margin: 5vw auto;
 }
 
 .NewP-text {
-  padding: 12px 12px 12px 0;
   display: block;
   color: black;
-  font-size: larger;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
+textarea{resize: none}
 .NewP-area {
   width: 100%;
-  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
@@ -103,18 +98,16 @@
   color: white;
 }
 
-@media screen and (max-width: 720px) {
+/*================================================*/
+
+@media screen and (min-width: 720px) {
   .NewP-column {
     /*border: solid; */
     width: 100%;
-    height: 30vh;
   }
 
   .NewP-container {
-    width: 80vw;
+    width: 40vw;
+    margin: 1vw auto;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> aa79d48dfca6f350934ad1ef3f69b84d4e2c08f9
