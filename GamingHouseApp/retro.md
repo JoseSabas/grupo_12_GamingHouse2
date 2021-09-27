@@ -1,29 +1,22 @@
-# Sprint 1:
+# Sprint 4:
 
-_Se observaron algunos aspectos en donde podemos mejorar._
+_Mejoras dentro del proyecto._
 
 ```
 Puntos>
-○ Mejorar la comunicación
-○ Establecer horarios
-○ Más uso del trello
+○  Diseño mas estilizado para el usuario
+○  Formularios Edit/Create productos - usuarios
+○  Codigo back optimizado para peticiones http con json products
+```
+
+_Obstaculos del sprint._
+```
+Puntos>
+○  Carga de archivos imagen en el formulario
+○  Implementacion de multer
+○  Mejoras para el panel de admnistracion usuario
 ```
 
 
-# Sprint 2:
-PROBLEMAS
-○ Flexbox
-○ Distribución
-○ Organización de tipografías y paleta de colores
-○ Diseño individual
-○ Media queries
-
-
-QUE HICIMOS BIEN
-○ Llegamos al resultado esperado
-
-QUE PODEMOS MEJORAR
-○ Mejor comunicación
-○ Realizar más reuniones
 
 

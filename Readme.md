@@ -28,3 +28,14 @@ _Para la creacion de wireframes se tomó inspiracion de:_
 *Enlace al trablero de trabajo* 📝
 * [Sprint 3](https://github.com/JoseSabas/grupo_12_GamingHouse2/tree/master/GamingHouseApp) - EJS
 * Controllers , Rutas , Add - Edit Producto
+* 
+
+# Sprint 4 : GamingHouse - JSON + Metodos HTTP
+*Enlace al trablero de trabajo* 📝
+* [Sprint 4](https://github.com/JoseSabas/grupo_12_GamingHouse2/tree/master/GamingHouseApp)
+* Metodos HTTP Forms
+* JSON 
+* CRUD Users
+* CRUD Products
+
+
