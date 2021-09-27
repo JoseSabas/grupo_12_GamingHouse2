@@ -9,48 +9,49 @@ const controller = {
 		res.render('AppLogin');
 	},
 	store: (req, res) => {
-		let newProduct = {
-			id: users[products.length - 1].id + 1,
+		let newUser = {
+			id: users[users.length - 1].id + 1,
 			...req.body
 		};
-		users.push(newProduct);
-		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
+		users.push(newUser);
+		fs.writeFileSync(usersFilePath, JSON.stringify(users, null, ' '));
 		res.redirect('/');
 	},
 
 	edit: (req, res) => {
 		let id = req.params.id;
-		let product = products.find(product=> product.id == id);
-		res.render('AppHome', {view: 'edit', product});
+		let user = users.find(user=> user.id == id);
+		res.render('AppHome', {view: 'edit', user});
 	},
 	update: (req, res) => {
 		let id = req.params.id;
-		let product = products.find(product => product.id == id)
+		let user = users.find(user => user.id == id)
 
-		productToEdit = {
-			id: product.id,
+		userToEdit = {
+			id: user.id,
 			...req.body,
-			stars: product.stars,
-			sales: product.sales,
-			top: product.top,
-        	url: product.url
+			firstname: user.firstname,
+			lastname: user.lastname,
+			email: user.email,
+        	password: user.password,
+			avatar: user.avatar
 		};
 
-		let newProducts = products.map(product =>{
-			if(product.id == productToEdit.id){
-				return productToEdit;
+		let newUsers = users.map(user =>{
+			if(user.id == userToEdit.id){
+				return userToEdit;
 			}
-			return product;
+			return user;
 		});
 
-		fs.writeFileSync(productsFilePath, JSON.stringify(newProducts, null, ' '));
+		fs.writeFileSync(usersFilePath, JSON.stringify(newUsers, null, ' '));
 		res.redirect('/');
 	},
 
 	delete: (req, res) => {
 		let id = req.params.id;
-		let productos = products.filter(product => product.id != id);
-		fs.writeFileSync(productsFilePath, JSON.stringify(productos, null, ' '));
+		let users = users.filter(product => user.id != id);
+		fs.writeFileSync(usersFilePath, JSON.stringify(users, null, ' '));
 		res.redirect('/');
 	}
 };

@@ -1,0 +1,59 @@
+div{
+    width: 100vw;
+    background-color: #536162;
+}
+
+h2 {
+    width: 100%;
+    padding: 5vh 0vw;
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+    color: #F3F4ED;
+}
+
+form{
+    display: flex;
+    justify-content: center;;
+}
+
+div.configInfo{
+    width: 260px;
+    border: 2px;
+    padding: 5px;
+    border-radius: 3px;
+    border-style: solid;
+    background-color: #393E46;
+    border-color: #C06014;
+}
+
+div.configInfo label{
+    justify-content: space-around;
+    text-align: left;
+    margin: 1vw 1vw 1vw 0;
+    color: #F3F4ED;
+}
+
+div.configInfo input{
+    width: 253px;
+    margin: 1vw 0 1vw 0;
+    background-color: -internal-light-dark(#C06014, #F3F4ED);
+}
+
+div.configInfo button{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0 1vh 55px;
+    color: #F3F4ED;
+    background-color: #bb5b0c;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.bottonElim{
+    margin: 1vh 0;
+    color: #F3F4ED;
+    background-color: #bb5b0c;
+    border-radius: 0.5em;
+    outline: none;
+}

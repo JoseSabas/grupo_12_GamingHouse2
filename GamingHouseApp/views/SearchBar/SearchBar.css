@@ -18,6 +18,60 @@
         font-weight: bolder;
     }
 
+    /* Add drop down pal nombre user */
+
+#SB-nav-menudrop ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #SB-nav-menudrop ul a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    line-height: 32px;
+    padding: 0 15px;
+  }
+  
+  #SB-nav-menudrop ul li.current-menu-item {
+    background: #ddd;
+  }
+  
+  #SB-nav-menudrop ul li:hover {
+    background: #f6f6f6;
+  }
+  
+  #SB-nav-menudrop ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 0;
+  }
+  
+  #SB-nav-menudrop ul ul li {
+    float: none;
+    width: 200px;
+  }
+  
+  #SB-nav-menudrop ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+  }
+  
+  #SB-nav-menudrop ul ul ul {
+    top: 0;
+    left: 100%;
+  }
+  
+  #SB-nav-menudrop ul li:hover > ul {
+    display: block;
+  }
+
     .searchBarRightB{
         flex-grow: 1;
         display: flex;
